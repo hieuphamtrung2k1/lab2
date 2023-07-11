@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <style>
+        .div1{
+            width: 800px;
+            height: 400px;
+            box-shadow: 2px 2px 5px gray;
+            margin: 0 auto;
+        }
+        .ketqua{
+            height: 70%;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .button{
+            text-align: center;
+        }
+        input{
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div1">
+        <div class="ketqua">
+            <p id="ketqua">day la ket qua</p> 
+            <input type="text" placeholder="nhap gia tri" id="giatri">
+            <input type="text"placeholder="nhap index" id="index">
+        </div>
+        <div class="button">
+            <button onclick="themdaumang()">Nhap phan tu dau mang</button>
+            <button onclick="themcuoimang()">nhap phan tu cuoi mang</button>
+            <button onclick="xoadaumang()">xoa phan tu dau mang</button>
+            <button onclick="xoacuoimang()">xoa phan tu cuoi mang</button>
+            <button onclick="themindex()">themindex</button>
+        </div>
+    </div>
+
+
+    <script src="js/bai4.js"></script>
+   
+    
+</body>
+</html>
